@@ -1,0 +1,31 @@
+table,
+td {
+  border: 1px solid #333;
+  text-align: center;
+}
+table {
+  width: 100%;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+thead,
+tfoot {
+  background-color: #333;
+  color: #fff;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+td p {
+  line-height: 1.5;
+}
+
+header {
+  background-color: pink;
+}
